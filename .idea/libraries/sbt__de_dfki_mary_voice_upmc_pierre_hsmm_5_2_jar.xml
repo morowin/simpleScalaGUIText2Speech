@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: de.dfki.mary:voice-upmc-pierre-hsmm:5.2:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/de.dfki.mary/voice-upmc-pierre-hsmm/jars/voice-upmc-pierre-hsmm-5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/de.dfki.mary/voice-upmc-pierre-hsmm/srcs/voice-upmc-pierre-hsmm-5.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

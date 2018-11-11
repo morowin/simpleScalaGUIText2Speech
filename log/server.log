@@ -1,0 +1,362 @@
+2018-11-11 12:13:31,222 [AWT-EventQueue-0] INFO  marytts.main Mary starting up...
+2018-11-11 12:13:31,226 [AWT-EventQueue-0] INFO  marytts.main Specification version 5.2
+2018-11-11 12:13:31,226 [AWT-EventQueue-0] INFO  marytts.main Implementation version unknown
+2018-11-11 12:13:31,226 [AWT-EventQueue-0] INFO  marytts.main Running on a Java 1.8.0_111 implementation by Oracle Corporation, on a Mac OS X platform (x86_64, 10.14.1)
+2018-11-11 12:13:31,314 [AWT-EventQueue-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2018-11-11 12:13:31,318 [AWT-EventQueue-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2018-11-11 12:13:31,318 [AWT-EventQueue-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2018-11-11 12:13:31,319 [AWT-EventQueue-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2018-11-11 12:13:31,320 [AWT-EventQueue-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2018-11-11 12:13:31,320 [AWT-EventQueue-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2018-11-11 12:13:31,321 [AWT-EventQueue-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2018-11-11 12:13:31,321 [AWT-EventQueue-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2018-11-11 12:13:31,322 [AWT-EventQueue-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2018-11-11 12:13:31,324 [AWT-EventQueue-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2018-11-11 12:13:31,325 [AWT-EventQueue-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2018-11-11 12:13:31,326 [AWT-EventQueue-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2018-11-11 12:13:31,326 [AWT-EventQueue-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2018-11-11 12:13:31,327 [AWT-EventQueue-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2018-11-11 12:13:31,328 [AWT-EventQueue-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2018-11-11 12:13:31,328 [AWT-EventQueue-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2018-11-11 12:13:31,330 [AWT-EventQueue-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2018-11-11 12:13:31,331 [AWT-EventQueue-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.fr.Phonemiser'
+2018-11-11 12:13:31,371 [AWT-EventQueue-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.fr.Preprocess'
+2018-11-11 12:13:31,479 [AWT-EventQueue-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.MinimalisticPosTagger(fr,fr.)'
+2018-11-11 12:13:31,486 [AWT-EventQueue-0] INFO  marytts.UnitSelectionSynthesizer started.
+2018-11-11 12:13:31,488 [AWT-EventQueue-0] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2018-11-11 12:13:31,488 [AWT-EventQueue-0] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).
+2018-11-11 12:13:31,513 [AWT-EventQueue-0] INFO  marytts.HMMData Loading Tree Set in CARTs:
+2018-11-11 12:13:31,657 [AWT-EventQueue-0] INFO  marytts.HMMData Loading GV Model Set:
+2018-11-11 12:13:31,870 [AWT-EventQueue-0] INFO  marytts.Voice Registering voice `upmc-pierre-hsmm': male, locale fr
+2018-11-11 12:13:31,870 [AWT-EventQueue-0] INFO  marytts.Voice New default voice for locale fr: upmc-pierre-hsmm (desire 0)
+2018-11-11 12:13:31,875 [AWT-EventQueue-0] INFO  marytts.HMMData Loading Tree Set in CARTs:
+2018-11-11 12:13:31,988 [AWT-EventQueue-0] INFO  marytts.HMMData Loading GV Model Set:
+2018-11-11 12:13:32,111 [AWT-EventQueue-0] INFO  marytts.Voice Registering voice `enst-dennys-hsmm': male, locale fr
+2018-11-11 12:13:32,111 [AWT-EventQueue-0] INFO  marytts.HMMSynthesizer started.
+2018-11-11 12:13:32,111 [AWT-EventQueue-0] INFO  marytts.Synthesis Module started (ACOUSTPARAMS->AUDIO, locale null).
+2018-11-11 12:13:32,112 [AWT-EventQueue-0] INFO  marytts.HMMSynthesizer Starting power-on self test.
+2018-11-11 12:13:32,114 [AWT-EventQueue-0] INFO  marytts.HMMSynthesizer Power-on self test complete.
+2018-11-11 12:13:32,114 [AWT-EventQueue-0] INFO  marytts.TextToMaryXML Module started (TEXT->RAWMARYXML, locale null).
+2018-11-11 12:13:32,114 [AWT-EventQueue-0] INFO  marytts.TextToMaryXML Starting power-on self test.
+2018-11-11 12:13:32,120 [AWT-EventQueue-0] WARN  marytts.TextToMaryXML Locale is null, overriding with fr_FR
+2018-11-11 12:13:32,120 [AWT-EventQueue-0] WARN  marytts.TextToMaryXML Locale is null, overriding with fr_FR
+2018-11-11 12:13:32,121 [AWT-EventQueue-0] INFO  marytts.TextToMaryXML Power-on self test complete.
+2018-11-11 12:13:32,343 [AWT-EventQueue-0] INFO  marytts.SableParser Module started (SABLE->RAWMARYXML, locale null).
+2018-11-11 12:13:32,344 [AWT-EventQueue-0] INFO  marytts.SableParser Starting power-on self test.
+2018-11-11 12:13:32,344 [AWT-EventQueue-0] INFO  marytts.SableParser Power-on self test complete.
+2018-11-11 12:13:32,413 [AWT-EventQueue-0] INFO  marytts.SSMLParser Module started (SSML->RAWMARYXML, locale null).
+2018-11-11 12:13:32,413 [AWT-EventQueue-0] INFO  marytts.SSMLParser Starting power-on self test.
+2018-11-11 12:13:32,413 [AWT-EventQueue-0] INFO  marytts.SSMLParser Power-on self test complete.
+2018-11-11 12:13:32,469 [AWT-EventQueue-0] INFO  marytts.APMLParser Module started (APML->RAWMARYXML, locale null).
+2018-11-11 12:13:32,469 [AWT-EventQueue-0] INFO  marytts.APMLParser Starting power-on self test.
+2018-11-11 12:13:32,469 [AWT-EventQueue-0] INFO  marytts.APMLParser Power-on self test complete.
+2018-11-11 12:13:32,502 [AWT-EventQueue-0] INFO  marytts.EmotionmlParser Module started (EMOTIONML->RAWMARYXML, locale null).
+2018-11-11 12:13:32,502 [AWT-EventQueue-0] INFO  marytts.EmotionmlParser Starting power-on self test.
+2018-11-11 12:13:32,502 [AWT-EventQueue-0] INFO  marytts.EmotionmlParser Power-on self test complete.
+2018-11-11 12:13:32,502 [AWT-EventQueue-0] INFO  marytts.JTokeniser Module started (RAWMARYXML->TOKENS, locale null).
+2018-11-11 12:13:32,553 [AWT-EventQueue-0] INFO  marytts.JTokeniser Starting power-on self test.
+2018-11-11 12:13:32,553 [AWT-EventQueue-0] INFO  marytts.JTokeniser Power-on self test complete.
+2018-11-11 12:13:32,553 [AWT-EventQueue-0] INFO  marytts.DummyTokens2Words Module started (TOKENS->WORDS, locale null).
+2018-11-11 12:13:32,553 [AWT-EventQueue-0] INFO  marytts.DummyTokens2Words Starting power-on self test.
+2018-11-11 12:13:32,553 [AWT-EventQueue-0] INFO  marytts.DummyTokens2Words Power-on self test complete.
+2018-11-11 12:13:32,559 [AWT-EventQueue-0] INFO  marytts.Prosody Module started (PHONEMES->INTONATION, locale null).
+2018-11-11 12:13:32,559 [AWT-EventQueue-0] INFO  marytts.Prosody Starting power-on self test.
+2018-11-11 12:13:32,560 [AWT-EventQueue-0] INFO  marytts.Prosody Power-on self test complete.
+2018-11-11 12:13:32,560 [AWT-EventQueue-0] INFO  marytts.PronunciationModel Module started (INTONATION->ALLOPHONES, locale null).
+2018-11-11 12:13:32,560 [AWT-EventQueue-0] INFO  marytts.PronunciationModel Starting power-on self test.
+2018-11-11 12:13:32,560 [AWT-EventQueue-0] INFO  marytts.PronunciationModel Power-on self test complete.
+2018-11-11 12:13:32,560 [AWT-EventQueue-0] INFO  marytts.TargetFeatureLister Starting power-on self test.
+2018-11-11 12:13:32,560 [AWT-EventQueue-0] INFO  marytts.TargetFeatureLister Power-on self test complete.
+2018-11-11 12:13:32,560 [AWT-EventQueue-0] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->HALFPHONE_TARGETFEATURES, locale null).
+2018-11-11 12:13:32,560 [AWT-EventQueue-0] INFO  marytts.TargetFeatureLister Starting power-on self test.
+2018-11-11 12:13:32,560 [AWT-EventQueue-0] INFO  marytts.TargetFeatureLister Power-on self test complete.
+2018-11-11 12:13:32,561 [AWT-EventQueue-0] INFO  marytts.AcousticModeller Module started (ALLOPHONES->ACOUSTPARAMS, locale null).
+2018-11-11 12:13:32,561 [AWT-EventQueue-0] INFO  marytts.AcousticModeller Starting power-on self test.
+2018-11-11 12:13:32,561 [AWT-EventQueue-0] INFO  marytts.AcousticModeller Power-on self test complete.
+2018-11-11 12:13:32,561 [AWT-EventQueue-0] INFO  marytts.Realised acoustparams extractor Module started (AUDIO->REALISED_ACOUSTPARAMS, locale null).
+2018-11-11 12:13:32,561 [AWT-EventQueue-0] INFO  marytts.Realised acoustparams extractor Starting power-on self test.
+2018-11-11 12:13:32,561 [AWT-EventQueue-0] INFO  marytts.Realised acoustparams extractor Power-on self test complete.
+2018-11-11 12:13:32,561 [AWT-EventQueue-0] INFO  marytts.Realised durations extractor Module started (AUDIO->REALISED_DURATIONS, locale null).
+2018-11-11 12:13:32,561 [AWT-EventQueue-0] INFO  marytts.Realised durations extractor Starting power-on self test.
+2018-11-11 12:13:32,561 [AWT-EventQueue-0] INFO  marytts.Realised durations extractor Power-on self test complete.
+2018-11-11 12:13:32,561 [AWT-EventQueue-0] INFO  marytts.Praat TextGrid generator Module started (REALISED_ACOUSTPARAMS->PRAAT_TEXTGRID, locale null).
+2018-11-11 12:13:32,561 [AWT-EventQueue-0] INFO  marytts.Praat TextGrid generator Starting power-on self test.
+2018-11-11 12:13:32,562 [AWT-EventQueue-0] INFO  marytts.Praat TextGrid generator Power-on self test complete.
+2018-11-11 12:13:32,562 [AWT-EventQueue-0] INFO  marytts.JPhonemiser Module started (PARTSOFSPEECH->PHONEMES, locale fr).
+2018-11-11 12:13:32,564 [AWT-EventQueue-0] INFO  marytts.JPhonemiser Starting power-on self test.
+2018-11-11 12:13:32,565 [AWT-EventQueue-0] INFO  marytts.JPhonemiser Power-on self test complete.
+2018-11-11 12:13:32,565 [AWT-EventQueue-0] INFO  marytts.Preprocess Module started (TOKENS->WORDS, locale fr).
+2018-11-11 12:13:32,565 [AWT-EventQueue-0] INFO  marytts.Preprocess Starting power-on self test.
+2018-11-11 12:13:32,569 [AWT-EventQueue-0] INFO  marytts.Preprocess Power-on self test complete.
+2018-11-11 12:13:32,569 [AWT-EventQueue-0] INFO  marytts.OpenNLPPosTagger Module started (WORDS->PARTSOFSPEECH, locale fr).
+2018-11-11 12:13:32,570 [AWT-EventQueue-0] INFO  marytts.OpenNLPPosTagger Starting power-on self test.
+2018-11-11 12:13:32,571 [AWT-EventQueue-0] INFO  marytts.OpenNLPPosTagger Power-on self test complete.
+2018-11-11 12:13:32,571 [AWT-EventQueue-0] INFO  marytts.main Startup complete.
+2018-11-11 12:13:32,576 [AWT-EventQueue-0] INFO  marytts.R 1 New request (input type "TEXT", output type "AUDIO", voice "upmc-pierre-hsmm", audio "WAVE")
+2018-11-11 12:13:32,577 [AWT-EventQueue-0] INFO  marytts.R 1 Handling request using the following modules:
+2018-11-11 12:13:32,577 [AWT-EventQueue-0] INFO  marytts.R 1 - TextToMaryXML (marytts.modules.TextToMaryXML)
+2018-11-11 12:13:32,577 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: TextToMaryXML
+2018-11-11 12:13:32,578 [AWT-EventQueue-0] INFO  marytts.R 1 Handling request using the following modules:
+2018-11-11 12:13:32,578 [AWT-EventQueue-0] INFO  marytts.R 1 - JTokeniser (marytts.modules.JTokeniser)
+2018-11-11 12:13:32,578 [AWT-EventQueue-0] INFO  marytts.R 1 - Preprocess (marytts.language.fr.Preprocess)
+2018-11-11 12:13:32,578 [AWT-EventQueue-0] INFO  marytts.R 1 - OpenNLPPosTagger (marytts.modules.MinimalisticPosTagger)
+2018-11-11 12:13:32,578 [AWT-EventQueue-0] INFO  marytts.R 1 - JPhonemiser (marytts.language.fr.Phonemiser)
+2018-11-11 12:13:32,578 [AWT-EventQueue-0] INFO  marytts.R 1 - Prosody (marytts.modules.ProsodyGeneric)
+2018-11-11 12:13:32,578 [AWT-EventQueue-0] INFO  marytts.R 1 - PronunciationModel (marytts.modules.PronunciationModel)
+2018-11-11 12:13:32,578 [AWT-EventQueue-0] INFO  marytts.R 1 - AcousticModeller (marytts.modules.AcousticModeller)
+2018-11-11 12:13:32,578 [AWT-EventQueue-0] INFO  marytts.R 1 - Synthesis (marytts.modules.Synthesis)
+2018-11-11 12:13:32,579 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: JTokeniser
+2018-11-11 12:13:32,581 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: Preprocess
+2018-11-11 12:13:32,581 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: OpenNLPPosTagger
+2018-11-11 12:13:32,581 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: JPhonemiser
+2018-11-11 12:13:32,582 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: Prosody
+2018-11-11 12:13:32,584 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: PronunciationModel
+2018-11-11 12:13:32,584 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: AcousticModeller
+2018-11-11 12:13:32,596 [AWT-EventQueue-0] INFO  marytts.ParameterGeneration Parameter generation for LF0: 
+2018-11-11 12:13:32,596 [AWT-EventQueue-0] INFO  marytts.PStream Global variance optimization
+2018-11-11 12:13:32,597 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=29
+2018-11-11 12:13:32,599 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: Synthesis
+2018-11-11 12:13:32,620 [AWT-EventQueue-0] INFO  marytts.HMMSynthesizer Synthesizing one sentence.
+2018-11-11 12:13:32,621 [AWT-EventQueue-0] INFO  marytts.HTSEngine Using prosody from acoustparams.
+2018-11-11 12:13:32,621 [AWT-EventQueue-0] INFO  marytts.HTSEngine Number of models in sentence numModel=3  Total number of states numState=15
+2018-11-11 12:13:32,621 [AWT-EventQueue-0] INFO  marytts.HTSEngine Total number of frames=146  Number of voiced frames=34
+2018-11-11 12:13:32,623 [AWT-EventQueue-0] INFO  marytts.ParameterGeneration Parameter generation for MGC: 
+2018-11-11 12:13:32,624 [AWT-EventQueue-0] INFO  marytts.PStream Global variance optimization
+2018-11-11 12:13:32,629 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=40
+2018-11-11 12:13:32,635 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (1)  number of iterations=68
+2018-11-11 12:13:32,636 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (2)  number of iterations=17
+2018-11-11 12:13:32,637 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (3)  number of iterations=17
+2018-11-11 12:13:32,639 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (4)  number of iterations=93
+2018-11-11 12:13:32,640 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (5)  number of iterations=25
+2018-11-11 12:13:32,641 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (6)  number of iterations=26
+2018-11-11 12:13:32,642 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (7)  number of iterations=18
+2018-11-11 12:13:32,644 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (8)  number of iterations=28
+2018-11-11 12:13:32,645 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (9)  number of iterations=28
+2018-11-11 12:13:32,646 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (10)  number of iterations=23
+2018-11-11 12:13:32,647 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (11)  number of iterations=22
+2018-11-11 12:13:32,647 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (12)  number of iterations=4
+2018-11-11 12:13:32,649 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (13)  number of iterations=33
+2018-11-11 12:13:32,649 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (14)  number of iterations=2
+2018-11-11 12:13:32,650 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (15)  number of iterations=13
+2018-11-11 12:13:32,653 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (16)  number of iterations=6
+2018-11-11 12:13:32,654 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (17)  number of iterations=4
+2018-11-11 12:13:32,655 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (18)  number of iterations=11
+2018-11-11 12:13:32,655 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (19)  number of iterations=2
+2018-11-11 12:13:32,656 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (20)  number of iterations=6
+2018-11-11 12:13:32,656 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (21)  number of iterations=3
+2018-11-11 12:13:32,657 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (22)  number of iterations=14
+2018-11-11 12:13:32,657 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (23)  number of iterations=2
+2018-11-11 12:13:32,658 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (24)  number of iterations=3
+2018-11-11 12:13:32,658 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (25)  number of iterations=4
+2018-11-11 12:13:32,659 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (26)  number of iterations=11
+2018-11-11 12:13:32,660 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (27)  number of iterations=8
+2018-11-11 12:13:32,660 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (28)  number of iterations=8
+2018-11-11 12:13:32,661 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (29)  number of iterations=2
+2018-11-11 12:13:32,662 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (30)  number of iterations=30
+2018-11-11 12:13:32,662 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (31)  number of iterations=8
+2018-11-11 12:13:32,663 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (32)  number of iterations=4
+2018-11-11 12:13:32,664 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (33)  number of iterations=17
+2018-11-11 12:13:32,664 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (34)  number of iterations=9
+2018-11-11 12:13:32,665 [AWT-EventQueue-0] INFO  marytts.ParameterGeneration Using f0 from maryXML acoustparams
+2018-11-11 12:13:32,665 [AWT-EventQueue-0] INFO  marytts.PStream Global variance optimization
+2018-11-11 12:13:32,666 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=24
+2018-11-11 12:13:32,667 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (1)  number of iterations=28
+2018-11-11 12:13:32,667 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (2)  number of iterations=24
+2018-11-11 12:13:32,668 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (3)  number of iterations=23
+2018-11-11 12:13:32,669 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (4)  number of iterations=36
+2018-11-11 12:13:32,676 [AWT-EventQueue-0] INFO  marytts.R 1 Request processed in 100 ms.
+2018-11-11 12:13:32,676 [AWT-EventQueue-0] INFO  marytts.R 1    TextToMaryXML took 0 ms
+2018-11-11 12:13:32,676 [AWT-EventQueue-0] INFO  marytts.R 1    JTokeniser took 2 ms
+2018-11-11 12:13:32,676 [AWT-EventQueue-0] INFO  marytts.R 1    Preprocess took 0 ms
+2018-11-11 12:13:32,676 [AWT-EventQueue-0] INFO  marytts.R 1    OpenNLPPosTagger took 0 ms
+2018-11-11 12:13:32,676 [AWT-EventQueue-0] INFO  marytts.R 1    JPhonemiser took 1 ms
+2018-11-11 12:13:32,676 [AWT-EventQueue-0] INFO  marytts.R 1    Prosody took 2 ms
+2018-11-11 12:13:32,676 [AWT-EventQueue-0] INFO  marytts.R 1    PronunciationModel took 0 ms
+2018-11-11 12:13:32,676 [AWT-EventQueue-0] INFO  marytts.R 1    AcousticModeller took 15 ms
+2018-11-11 12:13:32,676 [AWT-EventQueue-0] INFO  marytts.R 1    Synthesis took 77 ms
+2018-11-11 12:13:43,832 [AWT-EventQueue-0] INFO  marytts.R 1 New request (input type "TEXT", output type "AUDIO", voice "upmc-pierre-hsmm", audio "WAVE")
+2018-11-11 12:13:43,832 [AWT-EventQueue-0] INFO  marytts.R 1 Handling request using the following modules:
+2018-11-11 12:13:43,832 [AWT-EventQueue-0] INFO  marytts.R 1 - TextToMaryXML (marytts.modules.TextToMaryXML)
+2018-11-11 12:13:43,832 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: TextToMaryXML
+2018-11-11 12:13:43,833 [AWT-EventQueue-0] INFO  marytts.R 1 Handling request using the following modules:
+2018-11-11 12:13:43,833 [AWT-EventQueue-0] INFO  marytts.R 1 - JTokeniser (marytts.modules.JTokeniser)
+2018-11-11 12:13:43,833 [AWT-EventQueue-0] INFO  marytts.R 1 - Preprocess (marytts.language.fr.Preprocess)
+2018-11-11 12:13:43,833 [AWT-EventQueue-0] INFO  marytts.R 1 - OpenNLPPosTagger (marytts.modules.MinimalisticPosTagger)
+2018-11-11 12:13:43,833 [AWT-EventQueue-0] INFO  marytts.R 1 - JPhonemiser (marytts.language.fr.Phonemiser)
+2018-11-11 12:13:43,833 [AWT-EventQueue-0] INFO  marytts.R 1 - Prosody (marytts.modules.ProsodyGeneric)
+2018-11-11 12:13:43,833 [AWT-EventQueue-0] INFO  marytts.R 1 - PronunciationModel (marytts.modules.PronunciationModel)
+2018-11-11 12:13:43,833 [AWT-EventQueue-0] INFO  marytts.R 1 - AcousticModeller (marytts.modules.AcousticModeller)
+2018-11-11 12:13:43,833 [AWT-EventQueue-0] INFO  marytts.R 1 - Synthesis (marytts.modules.Synthesis)
+2018-11-11 12:13:43,833 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: JTokeniser
+2018-11-11 12:13:43,834 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: Preprocess
+2018-11-11 12:13:43,834 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: OpenNLPPosTagger
+2018-11-11 12:13:43,834 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: JPhonemiser
+2018-11-11 12:13:43,847 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: Prosody
+2018-11-11 12:13:43,848 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: PronunciationModel
+2018-11-11 12:13:43,849 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: AcousticModeller
+2018-11-11 12:13:43,857 [AWT-EventQueue-0] INFO  marytts.ParameterGeneration Parameter generation for LF0: 
+2018-11-11 12:13:43,857 [AWT-EventQueue-0] INFO  marytts.PStream Global variance optimization
+2018-11-11 12:13:43,858 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=20
+2018-11-11 12:13:43,859 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: Synthesis
+2018-11-11 12:13:43,859 [AWT-EventQueue-0] INFO  marytts.HMMSynthesizer Synthesizing one sentence.
+2018-11-11 12:13:43,860 [AWT-EventQueue-0] INFO  marytts.HTSEngine Using prosody from acoustparams.
+2018-11-11 12:13:43,861 [AWT-EventQueue-0] INFO  marytts.HTSEngine Number of models in sentence numModel=11  Total number of states numState=55
+2018-11-11 12:13:43,861 [AWT-EventQueue-0] INFO  marytts.HTSEngine Total number of frames=246  Number of voiced frames=145
+2018-11-11 12:13:43,863 [AWT-EventQueue-0] INFO  marytts.ParameterGeneration Parameter generation for MGC: 
+2018-11-11 12:13:43,863 [AWT-EventQueue-0] INFO  marytts.PStream Global variance optimization
+2018-11-11 12:13:43,864 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=2
+2018-11-11 12:13:43,866 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (1)  number of iterations=27
+2018-11-11 12:13:43,869 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (2)  number of iterations=37
+2018-11-11 12:13:43,870 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (3)  number of iterations=20
+2018-11-11 12:13:43,871 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (4)  number of iterations=20
+2018-11-11 12:13:43,873 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (5)  number of iterations=32
+2018-11-11 12:13:43,874 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (6)  number of iterations=18
+2018-11-11 12:13:43,876 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (7)  number of iterations=19
+2018-11-11 12:13:43,877 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (8)  number of iterations=17
+2018-11-11 12:13:43,878 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (9)  number of iterations=1
+2018-11-11 12:13:43,878 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (10)  number of iterations=15
+2018-11-11 12:13:43,879 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (11)  number of iterations=16
+2018-11-11 12:13:43,880 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (12)  number of iterations=8
+2018-11-11 12:13:43,880 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (13)  number of iterations=30
+2018-11-11 12:13:43,881 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (14)  number of iterations=15
+2018-11-11 12:13:43,882 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (15)  number of iterations=7
+2018-11-11 12:13:43,882 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (16)  number of iterations=9
+2018-11-11 12:13:43,884 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (17)  number of iterations=11
+2018-11-11 12:13:43,885 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (18)  number of iterations=5
+2018-11-11 12:13:43,885 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (19)  number of iterations=2
+2018-11-11 12:13:43,886 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (20)  number of iterations=2
+2018-11-11 12:13:43,886 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (21)  number of iterations=3
+2018-11-11 12:13:43,887 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (22)  number of iterations=13
+2018-11-11 12:13:43,887 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (23)  number of iterations=7
+2018-11-11 12:13:43,888 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (24)  number of iterations=9
+2018-11-11 12:13:43,889 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (25)  number of iterations=8
+2018-11-11 12:13:43,890 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (26)  number of iterations=15
+2018-11-11 12:13:43,891 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (27)  number of iterations=2
+2018-11-11 12:13:43,891 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (28)  number of iterations=4
+2018-11-11 12:13:43,892 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (29)  number of iterations=10
+2018-11-11 12:13:43,893 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (30)  number of iterations=9
+2018-11-11 12:13:43,895 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (31)  number of iterations=18
+2018-11-11 12:13:43,896 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (32)  number of iterations=10
+2018-11-11 12:13:43,897 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (33)  number of iterations=15
+2018-11-11 12:13:43,898 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (34)  number of iterations=21
+2018-11-11 12:13:43,898 [AWT-EventQueue-0] INFO  marytts.ParameterGeneration Using f0 from maryXML acoustparams
+2018-11-11 12:13:43,900 [AWT-EventQueue-0] INFO  marytts.PStream Global variance optimization
+2018-11-11 12:13:43,901 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=17
+2018-11-11 12:13:43,903 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (1)  number of iterations=39
+2018-11-11 12:13:43,904 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (2)  number of iterations=16
+2018-11-11 12:13:43,906 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (3)  number of iterations=3
+2018-11-11 12:13:43,908 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (4)  number of iterations=19
+2018-11-11 12:13:43,908 [AWT-EventQueue-0] INFO  marytts.R 1 Request processed in 76 ms.
+2018-11-11 12:13:43,908 [AWT-EventQueue-0] INFO  marytts.R 1    TextToMaryXML took 1 ms
+2018-11-11 12:13:43,908 [AWT-EventQueue-0] INFO  marytts.R 1    JTokeniser took 1 ms
+2018-11-11 12:13:43,908 [AWT-EventQueue-0] INFO  marytts.R 1    Preprocess took 0 ms
+2018-11-11 12:13:43,909 [AWT-EventQueue-0] INFO  marytts.R 1    OpenNLPPosTagger took 0 ms
+2018-11-11 12:13:43,909 [AWT-EventQueue-0] INFO  marytts.R 1    JPhonemiser took 13 ms
+2018-11-11 12:13:43,909 [AWT-EventQueue-0] INFO  marytts.R 1    Prosody took 1 ms
+2018-11-11 12:13:43,909 [AWT-EventQueue-0] INFO  marytts.R 1    PronunciationModel took 0 ms
+2018-11-11 12:13:43,909 [AWT-EventQueue-0] INFO  marytts.R 1    AcousticModeller took 11 ms
+2018-11-11 12:13:43,909 [AWT-EventQueue-0] INFO  marytts.R 1    Synthesis took 49 ms
+2018-11-11 12:13:49,195 [AWT-EventQueue-0] INFO  marytts.R 1 New request (input type "TEXT", output type "AUDIO", voice "upmc-pierre-hsmm", audio "WAVE")
+2018-11-11 12:13:49,196 [AWT-EventQueue-0] INFO  marytts.R 1 Handling request using the following modules:
+2018-11-11 12:13:49,197 [AWT-EventQueue-0] INFO  marytts.R 1 - TextToMaryXML (marytts.modules.TextToMaryXML)
+2018-11-11 12:13:49,197 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: TextToMaryXML
+2018-11-11 12:13:49,197 [AWT-EventQueue-0] INFO  marytts.R 1 Handling request using the following modules:
+2018-11-11 12:13:49,197 [AWT-EventQueue-0] INFO  marytts.R 1 - JTokeniser (marytts.modules.JTokeniser)
+2018-11-11 12:13:49,197 [AWT-EventQueue-0] INFO  marytts.R 1 - Preprocess (marytts.language.fr.Preprocess)
+2018-11-11 12:13:49,197 [AWT-EventQueue-0] INFO  marytts.R 1 - OpenNLPPosTagger (marytts.modules.MinimalisticPosTagger)
+2018-11-11 12:13:49,197 [AWT-EventQueue-0] INFO  marytts.R 1 - JPhonemiser (marytts.language.fr.Phonemiser)
+2018-11-11 12:13:49,197 [AWT-EventQueue-0] INFO  marytts.R 1 - Prosody (marytts.modules.ProsodyGeneric)
+2018-11-11 12:13:49,197 [AWT-EventQueue-0] INFO  marytts.R 1 - PronunciationModel (marytts.modules.PronunciationModel)
+2018-11-11 12:13:49,197 [AWT-EventQueue-0] INFO  marytts.R 1 - AcousticModeller (marytts.modules.AcousticModeller)
+2018-11-11 12:13:49,197 [AWT-EventQueue-0] INFO  marytts.R 1 - Synthesis (marytts.modules.Synthesis)
+2018-11-11 12:13:49,197 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: JTokeniser
+2018-11-11 12:13:49,198 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: Preprocess
+2018-11-11 12:13:49,198 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: OpenNLPPosTagger
+2018-11-11 12:13:49,198 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: JPhonemiser
+2018-11-11 12:13:49,199 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: Prosody
+2018-11-11 12:13:49,200 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: PronunciationModel
+2018-11-11 12:13:49,201 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: AcousticModeller
+2018-11-11 12:13:49,204 [AWT-EventQueue-0] INFO  marytts.ParameterGeneration Parameter generation for LF0: 
+2018-11-11 12:13:49,204 [AWT-EventQueue-0] INFO  marytts.PStream Global variance optimization
+2018-11-11 12:13:49,205 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=19
+2018-11-11 12:13:49,205 [AWT-EventQueue-0] INFO  marytts.R 1 Next module: Synthesis
+2018-11-11 12:13:49,205 [AWT-EventQueue-0] INFO  marytts.HMMSynthesizer Synthesizing one sentence.
+2018-11-11 12:13:49,206 [AWT-EventQueue-0] INFO  marytts.HTSEngine Using prosody from acoustparams.
+2018-11-11 12:13:49,207 [AWT-EventQueue-0] INFO  marytts.HTSEngine Number of models in sentence numModel=11  Total number of states numState=55
+2018-11-11 12:13:49,207 [AWT-EventQueue-0] INFO  marytts.HTSEngine Total number of frames=245  Number of voiced frames=135
+2018-11-11 12:13:49,209 [AWT-EventQueue-0] INFO  marytts.ParameterGeneration Parameter generation for MGC: 
+2018-11-11 12:13:49,209 [AWT-EventQueue-0] INFO  marytts.PStream Global variance optimization
+2018-11-11 12:13:49,209 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=2
+2018-11-11 12:13:49,211 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (1)  number of iterations=57
+2018-11-11 12:13:49,212 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (2)  number of iterations=26
+2018-11-11 12:13:49,212 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (3)  number of iterations=19
+2018-11-11 12:13:49,214 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (4)  number of iterations=43
+2018-11-11 12:13:49,215 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (5)  number of iterations=39
+2018-11-11 12:13:49,216 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (6)  number of iterations=17
+2018-11-11 12:13:49,216 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (7)  number of iterations=2
+2018-11-11 12:13:49,217 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (8)  number of iterations=4
+2018-11-11 12:13:49,218 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (9)  number of iterations=3
+2018-11-11 12:13:49,218 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (10)  number of iterations=15
+2018-11-11 12:13:49,219 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (11)  number of iterations=14
+2018-11-11 12:13:49,220 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (12)  number of iterations=9
+2018-11-11 12:13:49,221 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (13)  number of iterations=18
+2018-11-11 12:13:49,222 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (14)  number of iterations=13
+2018-11-11 12:13:49,222 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (15)  number of iterations=9
+2018-11-11 12:13:49,223 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (16)  number of iterations=9
+2018-11-11 12:13:49,223 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (17)  number of iterations=7
+2018-11-11 12:13:49,224 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (18)  number of iterations=9
+2018-11-11 12:13:49,225 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (19)  number of iterations=2
+2018-11-11 12:13:49,225 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (20)  number of iterations=2
+2018-11-11 12:13:49,226 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (21)  number of iterations=4
+2018-11-11 12:13:49,227 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (22)  number of iterations=14
+2018-11-11 12:13:49,227 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (23)  number of iterations=14
+2018-11-11 12:13:49,227 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (24)  number of iterations=15
+2018-11-11 12:13:49,228 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (25)  number of iterations=10
+2018-11-11 12:13:49,228 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (26)  number of iterations=11
+2018-11-11 12:13:49,229 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (27)  number of iterations=2
+2018-11-11 12:13:49,229 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (28)  number of iterations=3
+2018-11-11 12:13:49,230 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (29)  number of iterations=15
+2018-11-11 12:13:49,230 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (30)  number of iterations=4
+2018-11-11 12:13:49,231 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (31)  number of iterations=32
+2018-11-11 12:13:49,232 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (32)  number of iterations=11
+2018-11-11 12:13:49,232 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (33)  number of iterations=5
+2018-11-11 12:13:49,233 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (34)  number of iterations=30
+2018-11-11 12:13:49,233 [AWT-EventQueue-0] INFO  marytts.ParameterGeneration Using f0 from maryXML acoustparams
+2018-11-11 12:13:49,234 [AWT-EventQueue-0] INFO  marytts.PStream Global variance optimization
+2018-11-11 12:13:49,235 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=16
+2018-11-11 12:13:49,235 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (1)  number of iterations=35
+2018-11-11 12:13:49,236 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (2)  number of iterations=23
+2018-11-11 12:13:49,236 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (3)  number of iterations=21
+2018-11-11 12:13:49,237 [AWT-EventQueue-0] INFO  marytts.PStream Gradient GV optimization for feature: (4)  number of iterations=41
+2018-11-11 12:13:49,238 [AWT-EventQueue-0] INFO  marytts.R 1 Request processed in 42 ms.
+2018-11-11 12:13:49,238 [AWT-EventQueue-0] INFO  marytts.R 1    TextToMaryXML took 0 ms
+2018-11-11 12:13:49,238 [AWT-EventQueue-0] INFO  marytts.R 1    JTokeniser took 1 ms
+2018-11-11 12:13:49,238 [AWT-EventQueue-0] INFO  marytts.R 1    Preprocess took 0 ms
+2018-11-11 12:13:49,238 [AWT-EventQueue-0] INFO  marytts.R 1    OpenNLPPosTagger took 0 ms
+2018-11-11 12:13:49,238 [AWT-EventQueue-0] INFO  marytts.R 1    JPhonemiser took 1 ms
+2018-11-11 12:13:49,238 [AWT-EventQueue-0] INFO  marytts.R 1    Prosody took 1 ms
+2018-11-11 12:13:49,238 [AWT-EventQueue-0] INFO  marytts.R 1    PronunciationModel took 1 ms
+2018-11-11 12:13:49,238 [AWT-EventQueue-0] INFO  marytts.R 1    AcousticModeller took 4 ms
+2018-11-11 12:13:49,238 [AWT-EventQueue-0] INFO  marytts.R 1    Synthesis took 32 ms
+2018-11-11 12:13:52,488 [Thread-1] INFO  marytts.main Shutting down modules...
+2018-11-11 12:13:52,489 [Thread-1] INFO  marytts.Synthesis Module shut down.
+2018-11-11 12:13:52,489 [Thread-1] INFO  marytts.TextToMaryXML Module shut down.
+2018-11-11 12:13:52,489 [Thread-1] INFO  marytts.SableParser Module shut down.
+2018-11-11 12:13:52,489 [Thread-1] INFO  marytts.SSMLParser Module shut down.
+2018-11-11 12:13:52,489 [Thread-1] INFO  marytts.APMLParser Module shut down.
+2018-11-11 12:13:52,489 [Thread-1] INFO  marytts.EmotionmlParser Module shut down.
+2018-11-11 12:13:52,489 [Thread-1] INFO  marytts.JTokeniser Module shut down.
+2018-11-11 12:13:52,489 [Thread-1] INFO  marytts.DummyTokens2Words Module shut down.
+2018-11-11 12:13:52,489 [Thread-1] INFO  marytts.Prosody Module shut down.
+2018-11-11 12:13:52,490 [Thread-1] INFO  marytts.PronunciationModel Module shut down.
+2018-11-11 12:13:52,490 [Thread-1] INFO  marytts.TargetFeatureLister Module shut down.
+2018-11-11 12:13:52,490 [Thread-1] INFO  marytts.TargetFeatureLister Module shut down.
+2018-11-11 12:13:52,490 [Thread-1] INFO  marytts.AcousticModeller Module shut down.
+2018-11-11 12:13:52,490 [Thread-1] INFO  marytts.Realised acoustparams extractor Module shut down.
+2018-11-11 12:13:52,490 [Thread-1] INFO  marytts.Realised durations extractor Module shut down.
+2018-11-11 12:13:52,490 [Thread-1] INFO  marytts.HTSEngine Module shut down.
+2018-11-11 12:13:52,490 [Thread-1] INFO  marytts.Praat TextGrid generator Module shut down.
+2018-11-11 12:13:52,490 [Thread-1] INFO  marytts.JPhonemiser Module shut down.
+2018-11-11 12:13:52,490 [Thread-1] INFO  marytts.Preprocess Module shut down.
+2018-11-11 12:13:52,490 [Thread-1] INFO  marytts.OpenNLPPosTagger Module shut down.
+2018-11-11 12:13:52,491 [Thread-1] INFO  marytts.main Shutdown complete.
